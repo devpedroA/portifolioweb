@@ -18,8 +18,7 @@ interface Certificate {
 export default function Certificates() {
   const [certificates, setCertificates] = useState<Certificate[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedCertificate, setSelectedCertificate] =
-    useState<Certificate | null>(null); // Estado para o certificado selecionado
+  const [selectedCertificate, setSelectedCertificate] = useState<Certificate | null>(null);
 
   useEffect(() => {
     const fetchCertificates = async () => {
@@ -38,17 +37,17 @@ export default function Certificates() {
 
   const getValidCertificateUrl = (url: string) => {
     if (url.includes("localhost")) {
-      return url.replace("http://localhost:3000/", ""); // Remove "localhost:3000"
+      return url.replace("http://localhost:3000/", "");
     }
     return url;
   };
 
   const openModal = (certificate: Certificate) => {
-    setSelectedCertificate(certificate); // Define o certificado selecionado
+    setSelectedCertificate(certificate);
   };
 
   const closeModal = () => {
-    setSelectedCertificate(null); // Fecha o modal
+    setSelectedCertificate(null);
   };
 
   if (loading) {
@@ -58,7 +57,7 @@ export default function Certificates() {
         className="py-16 bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
       >
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-8 text-white">Certificados</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">Certificados</h2>
           <p className="text-white/80">Carregando certificados...</p>
         </div>
       </section>
@@ -70,15 +69,15 @@ export default function Certificates() {
       id="certificates"
       className="py-16 bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
     >
-      <div className="container mx-auto shadow-[0_0_20px_rgba(168,85,247,0.4)]px-4">
-        <h2 className="text-4xl font-bold mb-8 text-white text-with-underline">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white text-with-underline">
           Certificados
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {certificates.map((certificate) => (
             <div
               key={certificate.id}
-              className="bg-white/5 rounded-lg shadow-lg   hover:scale-105 transition duration-200  overflow-hidden"
+              className="bg-white/5 rounded-lg shadow-lg hover:scale-105 transition duration-200 overflow-hidden"
             >
               <div
                 className="relative h-48 cursor-pointer"
@@ -91,11 +90,10 @@ export default function Certificates() {
                   objectFit="cover"
                 />
               </div>
-              <div className="p-6">
+              <div className="p-4 md:p-6">
                 <h3 className="text-lg font-bold mb-2 text-purple-500">
                   {certificate.title}
                 </h3>
-                {/* <p className="mb-4 text-sm text-white/80">{certificate.description}</p> */}
                 <div className="flex items-center justify-between mb-4">
                   <span className="text-white/60">
                     Emitido em: {certificate.issueDate}
@@ -115,14 +113,13 @@ export default function Certificates() {
         </div>
       </div>
 
-      {/* Modal para exibir o certificado em tamanho maior */}
       {selectedCertificate && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
           onClick={closeModal}
         >
           <div
-            className="relative bg-white/10 rounded-lg shadow-lg max-w-3xl w-full p-6"
+            className="relative bg-white/10 rounded-lg shadow-lg max-w-3xl w-full p-4 md:p-6"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -131,7 +128,7 @@ export default function Certificates() {
             >
               <X size={24} />
             </button>
-            <div className="relative h-[80vh]">
+            <div className="relative h-[50vh] md:h-[80vh]">
               <Image
                 src={selectedCertificate.imageUrl || "/placeholder.svg"}
                 alt={selectedCertificate.title}
