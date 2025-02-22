@@ -42,6 +42,47 @@ Este projeto é um portfólio online onde compartilho meus trabalhos, habilidade
    ```bash
    Abra http://localhost:3000 para ver o projeto.
 
+# 🔥 Configurando o Firebase
+
+O projeto utiliza o **Firebase Database** para armazenar os dados de projetos e certificados. Para configurar o Firebase, siga os passos abaixo:
+
+## 📋 Configuração do Ambiente
+
+1. Crie um arquivo `.env` na raiz do projeto.
+2. Adicione as seguintes variáveis de ambiente ao arquivo `.env`:
+
+```bash
+   NEXT_PUBLIC_FIREBASE_API_KEY=
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+   NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+
+## 🗂️ Criando as Coleções no Firebase
+
+Após configurar o ambiente, você precisará criar duas coleções no Firebase. **Atenção:** Os nomes das coleções devem ser exatamente `certificates` e `projects`.
+
+### 1. **Projetos**
+
+O schema da coleção `projects` deve seguir a seguinte estrutura:
+- `description`: string
+- `id`: string
+- `imageUrl`: string
+- `link`: string
+- `name`: string
+- `technologies`: array
+
+### 2. **Certificados**
+
+- O schema da coleção `certificates` deve seguir a seguinte estrutura:
+- `certificateUrl`: string
+- `description`: string
+- `imageUrl`: string
+- `issueDate`: string
+- `title`: string
+
 ## 🌐 Deployment
 
 O projeto está hospedado em **[Vercel](https://vercel.com/)**.  
