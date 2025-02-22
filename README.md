@@ -6,13 +6,7 @@ Este projeto é um portfólio online onde exibo meus projetos, habilidades e exp
 
 ## 🛠️ Tecnologias Utilizadas
 
-<img align="center" alt="HTML" src="https://img.shields.io/badge/HTML5-323330?style=for-the-badge&logo=html5&logoColor=orange" />
-<img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=blue" />
-<img align="center" alt="JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
-<img align="center" alt="React" src="https://img.shields.io/badge/React-323330?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img align="center" alt="Tailwind" src="https://img.shields.io/badge/Tailwind_CSS-323330?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC" />
-<img align="center" alt="Git" src="https://img.shields.io/badge/Git-323330?style=for-the-badge&logo=git&logoColor=F05032" />
-<img align="center" alt="GitHub" src="https://img.shields.io/badge/GitHub-323330?style=for-the-badge&logo=github&logoColor=white" />
+<img align="center" alt="HTML" src="https://img.shields.io/badge/HTML5-323330?style=for-the-badge&logo=html5&logoColor=orange" /><img align="center" alt="CSS" src="https://img.shields.io/badge/CSS3-323330?style=for-the-badge&logo=css3&logoColor=blue" /><img align="center" alt="JS" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /><img align="center" alt="React" src="https://img.shields.io/badge/React-323330?style=for-the-badge&logo=react&logoColor=61DAFB" /><img align="center" alt="Tailwind" src="https://img.shields.io/badge/Tailwind_CSS-323330?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC" /><img align="center" alt="Git" src="https://img.shields.io/badge/Git-323330?style=for-the-badge&logo=git&logoColor=F05032" /><img align="center" alt="GitHub" src="https://img.shields.io/badge/GitHub-323330?style=for-the-badge&logo=github&logoColor=white" />
 
 ### ⏳ Tempo de Projeto
 
@@ -56,6 +50,6 @@ O projeto está hospedado em **[Vercel](https://vercel.com/)**.
 ## 📬 Contato
 
 Feito por **[Pedro H](https://github.com/pedroarltx)**
-✉️ **E-mail**: [E-mail](dev.phtech@gmail.com)
+✉️ **E-mail**: dev.phtech@gmail.com
 💼 **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/pxdpedro-henrique)
 🐱 **GitHub**: [GitHub](https://github.com/pedroarltx)
