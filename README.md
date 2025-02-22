@@ -31,7 +31,7 @@ Este projeto é um portfólio online onde compartilho meus trabalhos, habilidade
    git clone https://github.com/pedroarltx/portifolioweb
 2. **Acesse a pasta do projeto:**:
    ```bash
-   cd seu-portfolio
+   cd portifolioweb
 3. **Instale as dependências:**:
    ```bash
    npm install
