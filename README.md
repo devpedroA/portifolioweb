@@ -1,6 +1,6 @@
 # 👨‍💻 Portfólio Pessoal para Desenvolvedor de Software
 
-Este projeto é um portfólio online onde exibo meus projetos, habilidades e experiências como desenvolvedor de software. Ele foi criado para destacar minhas competências e facilitar o contato com potenciais empregadores ou colaboradores. Um portfólio bem estruturado e visualmente atraente é essencial para se destacar no mercado de tecnologia.
+Este projeto é um portfólio online onde compartilho meus trabalhos, habilidades e experiências como desenvolvedor de software. Fiz ele para mostrar um pouco do que sei e para facilitar o contato com quem possa se interessar pelo meu trabalho. Acredito que um portfólio claro, organizado e com um toque pessoal é uma ótima maneira de me conectar com novas oportunidades. 😊
 
 ---
 
