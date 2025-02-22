@@ -67,9 +67,9 @@ export default function Certificates() {
   return (
     <section
       id="certificates"
-      className="py-16 bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
+      className="py-16  bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
     >
-      <div className="container mx-auto px-4">
+      <div className="container  px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white text-with-underline">
           Certificados
         </h2>
@@ -77,7 +77,7 @@ export default function Certificates() {
           {certificates.map((certificate) => (
             <div
               key={certificate.id}
-              className="bg-white/5 rounded-lg shadow-lg hover:scale-105 transition duration-200 overflow-hidden"
+              className="bg-white/5 shadow rounded-lg hover:scale-105 transition duration-200 overflow-hidden"
             >
               <div
                 className="relative h-48 cursor-pointer"
@@ -115,7 +115,7 @@ export default function Certificates() {
 
       {selectedCertificate && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/100 p-4"
           onClick={closeModal}
         >
           <div
@@ -124,9 +124,9 @@ export default function Certificates() {
           >
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-white hover:text-purple-500 transition-colors"
+              className="absolute top-4 right-4 z-50 text-white hover:text-purple-500 transition-colors"
             >
-              <X size={24} />
+              <X size={32} />
             </button>
             <div className="relative h-[50vh] md:h-[80vh]">
               <Image

@@ -53,7 +53,7 @@ export default function Projects() {
         <h2 className="text-4xl font-bold mb-8 text-white text-with-underline">Projetos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project) => (
-            <div key={project.id} className="bg-white/5 rounded-lg shadow-lg backdrop-blur-sm overflow-hidden ">
+            <div key={project.id} className="bg-white/5 shadow rounded-lg backdrop-blur-sm overflow-hidden ">
               <div className="relative h-48 ">
                 <Image
                   src={project.imageUrl || "/placeholder.svg"}
