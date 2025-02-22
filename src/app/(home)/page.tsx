@@ -7,6 +7,7 @@ import Footer from "../components/footer/Footer"
 import Certificates from "../components/certificates/Certificates"
 
 
+
 export default function Home() {
   return (
     <>
