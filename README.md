@@ -23,7 +23,7 @@ Este projeto é um portfólio online onde exibo meus projetos, habilidades e exp
 ## 📌 Funcionalidades Principais
 
 - **Página Inicial**: Breve introdução sobre mim e minhas habilidades.
-- - **Seção de Habilidades**: Lista de tecnologias que domino, com ícones e progresso.
+- **Seção de Habilidades**: Lista de tecnologias que domino, com ícones e progresso.
 - **Projetos Destacados**: Cards interativos com links para repositórios e demos.
 - **Seção de Certificados**: Cards interativos com certificados.
 - **Formulário de Contato**: Opção para enviar mensagens diretamente pelo portfólio.
@@ -56,6 +56,6 @@ O projeto está hospedado em **[Vercel](https://vercel.com/)**.
 ## 📬 Contato
 
 Feito por **[Pedro H](https://github.com/pedroarltx)**
-✉️ **E-mail**: dev.phtech@gmail.com
-💼 **LinkedIn**: https://www.linkedin.com/in/pxdpedro-henrique/
-🐱 **GitHub**: https://github.com/pedroarltx
+✉️ **E-mail**: [E-mail](dev.phtech@gmail.com)
+💼 **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/pxdpedro-henrique)
+🐱 **GitHub**: [GitHub](https://github.com/pedroarltx)
