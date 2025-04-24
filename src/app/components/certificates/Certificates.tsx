@@ -67,7 +67,7 @@ export default function Certificates() {
   return (
     <section
       id="certificates"
-      className="py-16  bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
+      className="py-16 justify-center flex bg-gradient-to-br from-[#0B0B1A] to-[#141429]"
     >
       <div className="container  px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white text-with-underline">

@@ -116,7 +116,7 @@ export default function HomePage() {
           <div className="hidden lg:block text-center">
             <div className="relative overflow-hidden w-[300px] h-[300px] rounded-full bg-gradient-to-br from-purple-500/20 to-purple-700/20 shadow-[0_0_20px_rgba(168,85,247,0.4)]">
               <Image
-                src="/Profile.png"
+                src="/img-redonda.png"
                 alt="Frontend Development Illustration"
                 width={300}
                 height={300}

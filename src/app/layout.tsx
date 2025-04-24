@@ -4,13 +4,12 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Portifolio Web",
-  description: "Portifolio Web",
+  title: "Portifolio Web - Desenvolvedor Pedro A.",
+  description: "Portifolio Web - Desenvolvedor Pedro A.",
   viewport: "width=device-width, initial-scale=1",
-  keywords: "Next.js, React, TypeScript, Tailwind CSS, Vercel",
-  icons: "/Profile.png", // Caminho correto
+  keywords: "Next.js, React, TypeScript, Tailwind CSS, Vercel, Pedro A., Portifolio, Ph.Tech",
+  icons: "/img-redonda.png",
 };
-
 
 export default function RootLayout({
   children,
@@ -26,3 +25,4 @@ export default function RootLayout({
     </html>
   );
 }
+
